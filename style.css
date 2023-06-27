@@ -623,3 +623,10 @@ input:focus {
 .main.accept .main_top span {
   filter: blur(2px); /* размытие фона */
 }
+
+@media (min-width: 768px) {
+  .main {
+    justify-content: center;
+    align-items: center;
+  }
+}
