@@ -156,7 +156,7 @@ input:focus {
     background-position: 50%;
     flex-direction: column;
     box-sizing: border-box;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .main_background {
@@ -389,14 +389,14 @@ input:focus {
 /* На кнопку + цвет кнопки #029ABC + кнопку больше в 2 раза */
 
 .activate {
-  width: 214px;
+  width: 234px;
   display: block;
   background: #029ABC;
   -webkit-box-shadow: 0 4px 20px rgba(86, 40, 238, 0.15);
           box-shadow: 0 4px 20px rgba(86, 40, 238, 0.15);
   line-height: 20px;
-  padding: 24px 12px;
-  border-radius: 50px;
+  padding: 14px 12px;
+  border-radius: 30px;
   box-sizing: border-box;
   color: #fff;
   font-weight: 500;
@@ -555,6 +555,7 @@ input:focus {
   padding: 0;
   margin: 4px 0px 0px 0px;
   list-style: none;
+  width: 152px;
   display: inline-block;
   vertical-align: top;
   text-align: center;
