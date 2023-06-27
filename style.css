@@ -350,6 +350,7 @@ input:focus {
     line-height: 30px;
     color: #fff;
     font-weight: 700;
+    transition: 2s;
 }
 
 .main_text {
@@ -358,7 +359,7 @@ input:focus {
     align-items: center;
     position: relative;
     z-index: 2;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .main_text p {
@@ -370,6 +371,11 @@ input:focus {
     text-align: center;
     text-transform: uppercase;
     margin-top: 20px;
+    transition: 2s;
+}
+
+.main_text p:first-child {
+  margin-top: 0px;
 }
 
 .main_btn {
@@ -604,5 +610,12 @@ input:focus {
 
 .activate ul li {
   font-family: 'Poppins', sans-serif;
+}
 
+.main.accept p {
+  filter: blur(2px); /* размытие фона */
+}
+
+.main.accept .main_top span {
+  filter: blur(2px); /* размытие фона */
 }
